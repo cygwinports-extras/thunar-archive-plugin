@@ -1,0 +1,15 @@
+--- origsrc/thunar-archive-plugin-0.3.0/thunar-archive-plugin/Makefile.am	2011-01-23 07:42:43.000000000 -0600
++++ src/thunar-archive-plugin-0.3.0/thunar-archive-plugin/Makefile.am	2011-02-27 21:12:03.739626500 -0600
+@@ -30,6 +30,12 @@ thunar_archive_plugin_la_LDFLAGS =					\
+ 	-avoid-version							\
+ 	-export-dynamic							\
+ 	-module								\
++	-no-undefined							\
+ 	$(PLATFORM_LDFLAGS)
+ 
++thunar_archive_plugin_la_LIBADD =					\
++	$(THUNARX_LIBS)						\
++	$(EXO_LIBS)							\
++	$(LIBXFCE4UTIL_LIBS)
++
+ # vi:set ts=8 sw=8 noet ai nocindent syntax=automake:
