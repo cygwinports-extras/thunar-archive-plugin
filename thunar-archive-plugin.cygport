@@ -1,0 +1,14 @@
+inherit xfce4
+
+NAME="thunar-archive-plugin"
+VERSION=0.3.1
+RELEASE=1
+CATEGORY="Xfce"
+SUMMARY="Thunar archive manager plugin"
+DESCRIPTION="The thunar-archive-plugin is a plugin for the Thunar File
+Manager, which adds archive operations to the file context menus. Using
+this plugin you will be able to extract and create archive files from
+within Thunar using a single click."
+REQUIRES="xarchiver"
+
+PATCH_URI="0.3.0-no-undefined.patch"

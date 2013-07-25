@@ -1,7 +1,0 @@
-category: Xfce
-requires: libglib2.0_0 libgtk2.0_0 libintl8 Thunar xarchiver
-sdesc: "Thunar archive manager plugin"
-ldesc: "The thunar-archive-plugin is a plugin for the Thunar File 
-Manager, which adds archive operations to the file context menus. Using 
-this plugin you will be able to extract and create archive files from 
-within Thunar using a single click."
